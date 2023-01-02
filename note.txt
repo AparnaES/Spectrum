@@ -1,0 +1,63 @@
+Git and Github
+--------------
+
+git-tool,project update ,download project
+----
+vcm=>version control system
+scm=>software configuraton management
+
+
+
+github-sever
+-----
+
+
+
+Git operations
+----------
+push-uploads
+pull-changed copies access
+clone-exact copies access
+
+remote repository-github
+our system-local repository
+push
+----
+*local repository to remote repository.
+*to upload new projects and changes.
+
+developerside
+-------------
+local storage=== add===>staging area=== commit===>local repository===push===>remote repository
+
+
+
+
+
+
+
+clone
+----
+*remote repository to local repository.
+*downloading exact copy of priject.
+
+pull
+----
+*remote repository to local repository.
+*downloading  changes of project.
+
+commands
+
+git init
+git add .        (all file)
+git status       (uploaded file status)
+git commit -m "msg"          (commit a file)
+git remote -v         (remote repository check)
+git remote add l1  link      (l1any variable as value of link,link remote link)
+git push -u l1 master     (push to remote repository)
+git clone link               (clone )
+git pull link        (pull)
+
+
+
+
